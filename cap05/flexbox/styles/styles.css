@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+
+.container {
+  width: 80%;
+  min-height: 600px;
+  margin: 20px auto;
+  border: 1px solid #333;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap:50px;
+
+}
+
+.box {
+  width: 100px;
+  height:250px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 10px;
+
+}
+
+.box-1 {
+  order: 0;
+}
+
+.box-2 {
+  order: 0;
+}
+
+.box-3 {
+  order: 0;
+}

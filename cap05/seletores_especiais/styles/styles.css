@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* seletor descendente */
+
+/* div p {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #dc143c;
+} */
+
+/* seletor adjacente */
+
+/* ul + p {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  background-color: #dc143c;
+  color: white;
+} */
+
+
+/* seletor irmão */
+
+
+/* ul ~ p {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  background-color: #dc143c;
+  color: white;
+} */
+
+
+/* seletor de filhos direto */
+
+.container > p {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  background-color: #dc143c;
+  color: white;
+}

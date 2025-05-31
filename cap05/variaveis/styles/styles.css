@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+:root {
+  --bg-color: #ccc;
+  --space-10: 10px;
+  --space-30: 30px;
+  --space-50: 50px;
+}
+
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+  padding: var(--space-30);
+  background-color: var(--bg-color);
+}
+
+.container h1 {
+  margin: var(--space-30) auto;
+  text-align: center;
+}
+
+.box {
+  --width-total: 60%;
+  --margin: 25px;
+  width: var(--width-total);
+  margin: var(--margin) auto;
+}

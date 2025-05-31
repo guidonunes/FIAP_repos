@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1::after {
+  content: '';
+  width: 80%;
+  height: 3px;
+  background-color: #dc143c;
+  margin: 10px auto;
+  display: block;
+}
+
+.box {
+  width: 400px;
+  height: 250px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+
+}
+
+.box::before {
+  content: "Added content via CSS";
+  background-color: bisque;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.box::after {
+  content: "This is after the box";
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid #000;
+}

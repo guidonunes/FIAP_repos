@@ -1,0 +1,58 @@
+ * {
+  box-sizing: border-box ;
+ }
+
+ body {
+  font-family: "Roboto Mono", monospace;
+ }
+
+
+ /* li:hover {
+       width: 300px;
+       height: 50px;
+       background-color: #dc143c;
+       color: #fff;
+       margin: 10px 0;
+    } */
+
+.box {
+  width: 200px;
+  height: 50px;
+  margin: 10px 0;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.box:has(p) {
+  background-color: #dc143c;
+  color: #fff;
+}
+
+/* :where(.bg-color, h2, h3, h4) {
+  background-color: #dc143c;
+  color: #fff;
+}
+
+h4 {
+  background-color: #2114dc;
+  color: #fff;
+} */
+
+/* .box:first-child {
+  background-color: #dc143c;
+  color: #fff;
+}
+
+.box:last-child {
+  background-color: #2114dc;
+  color: #fff;
+} */
+
+/* .box:not(.no-color) {
+  background-color: green;
+  color: #fff;
+} */

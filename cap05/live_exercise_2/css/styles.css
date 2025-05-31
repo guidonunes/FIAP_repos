@@ -1,0 +1,34 @@
+.container {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "header header header"
+    "article article aside"
+    "footer footer footer";
+  justify-content: space-between;
+}
+
+.item {
+  /* background-color: brown; */
+  border: 1px solid black;
+
+}
+
+header {
+  grid-area: header;
+  background-color: lightblue;
+}
+article {
+  grid-area: article;
+  background-color: lightgreen;
+}
+aside {
+  grid-area: aside;
+  background-color: lightcoral;
+}
+footer {
+  grid-area: footer;
+  background-color: lightgoldenrodyellow;
+}
