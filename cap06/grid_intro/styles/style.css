@@ -82,3 +82,7 @@ h2 {
 .ex6 {
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
+
+.ex7 {
+  grid-template-rows: 1fr 2fr 3fr 2fr;
+}
