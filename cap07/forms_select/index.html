@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select</title>
+</head>
+<body>
+  <h1>Select</h1>
+  <form id="data" name="data" method="post" action="">
+    <fieldset>
+      <legend>Select</legend>
+      <label for="select">Select:</label>
+      <select id="select" name="select">
+        <option value="0" disabled>Select an option</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+        <option value="5">Option 5</option>
+    </fieldset>
+
+    <fieldset>
+      <legend>Datalist</legend>
+      <input list="datalist-options" id="datalist" name="datalist">
+      <datalist id="datalist-options">
+        <option value="Option A">
+        <option value="Option B">
+        <option value="Option C">
+        <option value="Option D">
+        <option value="Option E">
+      </datalist>
+    </fieldset>
+  </form>
+
+</body>
+</html>
