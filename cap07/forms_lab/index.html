@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Forms Lab</title>
+</head>
+<body>
+  <div class="container">
+
+    <!-- image and title -->
+    <div class="box">
+      <h2>Create an account</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta ipsam fuga iusto similique minus nisi eveniet, perspiciatis officia sed alias labore consequatur commodi maiores fugit temporibus velit veritatis explicabo! Quo.</p>
+      <img src="/images/image.svg" alt="sig up image">
+    </div>
+
+
+    <!-- forms -->
+    <div class="box">
+      <h2>Please, fill the form below: </h2>
+
+      <form id="data" name="data" method="post" class="form" action="">
+        <div class="box-form-item">
+          <label for="name">Name</label>
+          <i class="fa-regular fa-user icon"></i>
+          <input type="text" placeholder="e.g. John" name="name" id="name" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="surname">Surname</label>
+          <i class="fa-regular fa-id-badge icon"></i>
+          <input type="text" placeholder="e.g. Doe" name="surname" id="surname" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="username">Username</label>
+          <i class="fa-regular fa-circle-user icon"></i>
+          <input type="text" placeholder="e.g. privatedoe25" name="username" id="username" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="password">Password</label>
+          <i class="fa-solid fa-lock icon"></i>
+          <input type="password" placeholder="e.g. 123#456&" name="password" id="password" required>
+        </div>
+
+
+        <div class="box-form-item">
+          <label for="email">Email</label>
+          <i class="fa-regular fa-envelope icon"></i>
+          <input type="email" placeholder="e.g. johndoe@email.com" name="email" id="email" required>
+        </div>
+
+
+        <div class="box-form-item">
+          <label for="birthdate">Date of Birth</label>
+          <i class="fa-solid fa-cake-candles icon"></i>
+          <input type="date" placeholder="" name="birthdate" id="birthdate" required>
+        </div>
+
+        <div class="box-form-item">
+          <label for="">Account Tier</label>
+          <div class="box-form-radio">
+            <div class="radio">
+              <input type="radio" name="account" id="free" value="free" checked>
+              <label for="free">Free</label>
+            </div>
+
+            <div class="radio">
+              <input type="radio" name="account" id="premium" value="premium">
+              <label for="premium">Premium</label>
+            </div>
+
+            <div class="radio">
+              <input type="radio" name="account" id="vip" value="vip">
+              <label for="vip">VIP</label>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="box-form-item">
+          <label for="" class="select">Activity Field</label>
+          <select name="" id="">
+            <option value="0" selected disabled>Select your activity field</option>
+            <option value="1">Technology</option>
+            <option value="2">Finance</option>
+            <option value="3">Health</option>
+            <option value="4">Education</option>
+            <option value="5">Entertainment</option>
+            <option value="6">Travel</option>
+          </select>
+        </div>
+
+        <div class="box-form-button">
+          <button type="submit">Submit</button>
+        </div>
+
+
+      </form>
+
+    </div>
+
+  </div>
+</body>
+</html>
