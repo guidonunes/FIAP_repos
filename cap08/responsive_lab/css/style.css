@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&amp;display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+
+:root {
+  --color-1: #fff;
+  --color-2: #060b33;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-2);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+header h1 {
+  font-size: 6vmin;
+  margin-bottom: 15px;
+}
+
+.header-menu ul{
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu a {
+  color: var(--color-2);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.banner {
+  background-image:  url('../images/banner.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--color-1);
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 4rem;
+  margin: 20px 0;
+}
+
+.banner h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.banner .btn {
+  margin-top: 20px;
+  background-color: var(--color-2);
+  border: 1px solid var(--color-2);
+  border-radius: 6px;
+  color: var(--color-1);
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 900;
+  transition: .5s;
+  font-size:1.2rem;
+}
+
+.banner .btn:hover {
+  background-color: var(--color-1);
+  color: var(--color-2);
+}
+
+
+.info {
+  background-color: var(--color-2);
+  color: var(--color-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+}
+
+.info p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  font-size: 1.2rem;
+  margin-bottom: 70px;
+}
+
+.info hr {
+  width: 200px;
+  height: 2px;
+  background: var(--color-1);
+  margin-bottom: 70px;
+  border: none
+}
+
+.info .item {
+  width: 100%;
+  display: flex;
+}
+
+.info .item li {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.info .item li i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: var(--color-1);
+}
+
+.info .item li h4 {
+  color: var(--color-i);
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.signup h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+}
+
+.signup p {
+  max-width: 800px;
+  margin-bottom: 35px;
+}
+
+.signup form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 800px;
+}
+
+.signup form input {
+  padding: 15px;
+  border: 1px solid var(--color-2);
+  border-radius: 4px;
+  margin-right: 15px;
+  width: 300px;
+}
+.signup form button {
+  padding: 15px;
+  background: var(--color-2);
+  color: var(--color-1);
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-2);
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right:0;
+}
+
+footer ul li a {
+  color: var(--color-1);
+  font-size: 2.5rem;
+}
+
+footer p {
+  color: var(--color-1);
+  font-size: 1.2rem;
+  text-align: center;
+}
