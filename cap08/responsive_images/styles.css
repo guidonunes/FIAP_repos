@@ -1,0 +1,38 @@
+.container {
+  min-height: 80vh;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;;
+}
+
+.box-one {
+  width: 20%;
+}
+
+.box-two {
+  width: 30%;
+}
+
+.box-three {
+  width: 40%;
+}
+
+@media(max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-one, .box-two, .box-three {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
