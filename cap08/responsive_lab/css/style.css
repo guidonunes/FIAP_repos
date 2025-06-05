@@ -216,3 +216,24 @@ footer p {
   font-size: 1.2rem;
   text-align: center;
 }
+
+
+@media(max-width: 850px) {
+  .info .item {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  header img {
+    margin-bottom: 15px;
+  }
+
+  .banner {
+    margin-top: 50px;
+  }
+}
