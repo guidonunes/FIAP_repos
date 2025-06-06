@@ -1,0 +1,12 @@
+.my-font {
+  font-family: "Manrope", sans-serif;
+  font-size: 70px;
+  color: red;
+}
+
+.planets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
