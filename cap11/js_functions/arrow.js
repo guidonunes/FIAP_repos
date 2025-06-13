@@ -24,3 +24,23 @@ const validarLogin = (usuario, senha) => {
 }
 
 const user1 = validarLogin("admin", "123456"); // Output: Login realizado com sucesso!
+
+
+// password generator
+
+const gerarSenha = () => {
+const caracteres =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
+  let senha = "";
+  const tamanhoSenha = 12;
+
+  for (let i = 0; i < tamanhoSenha; i++) {
+    const indiceAleatorio = Math.floor(Math.random() * caracteres.length);
+    senha += caracteres[indiceAleatorio];
+  }
+
+  return senha;
+}
+
+const senhaGerada = gerarSenha();
+
+console.log(`Senha gerada: ${senhaGerada}`); // Output: Senha gerada aleatoriamente de 12 caracteres
