@@ -76,4 +76,4 @@ const calcular = (x, y, z, callback) => {
 
 console.log("Chamando a callback")
 
-console.log(`Soma: ${calcular(10, 20, 30, media)}`); // Output: Soma: 60
+console.log(`Soma: ${calcular(10, 20, 30, somar)}`); // Output: Soma: 60
